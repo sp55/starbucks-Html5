@@ -154,3 +154,39 @@ main article small{/*small标签*/
 	text-align: center;
 	font-size: 90%;
 }
+
+
+/*form.html*/
+/*表单*/
+main.form{
+	margin-left: 0;
+}
+main.form h3{
+	color: #006F47;
+	font-size: 1.2em;
+	margin-bottom: 10px;
+	text-align: center;
+}
+main.form form{
+	display: table;
+	width: 900px;
+	padding: 10px;
+}
+main.form.row{
+	display: table-row;
+}
+main.form.cell{
+	display: table-cell;
+	vertical-align: top;
+	padding: 3px;
+}
+main.form.row.cell:first-child{
+	text-align: right;
+	padding-right: 20px;
+}
+
+
+
+
+
+
